@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||这份|生日礼物|送给|可爱的高欣|祝|你|生日快乐|❤|每天都要幸福开心|🌹|from|凌|#rectangle|');
+      S.UI.simulate('|#countdown 3||这份|生日礼物|送给|可爱的高欣|祝|你|生日快乐|❤|记得每天|都要幸福开心|🌹|from|凌|#rectangle|');
     }
 
     S.Drawing.loop(function () {

@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||这份生日礼物送给|可爱的高欣|祝|你|生日快乐|❤|记得|每天都要|幸福开心|🌹|身无彩凤|双飞翼|心有灵犀|一点通|不要总|一人想|愿同君|多念多思多想|爱你|from|凌|结束咯|#rectangle||听歌ing');
+      S.UI.simulate('|#countdown 3||这份生日礼物送给|可爱的高欣|祝|你|生日快乐|❤|记得|每天都要|幸福开心|🌹|身无彩凤|双飞翼|心有灵犀|一点通|不要总|一人想|愿同君|多念|多思|多想|爱你|from|凌|结束咯|#rectangle||听歌ing');
     }
 
     S.Drawing.loop(function () {
